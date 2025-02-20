@@ -51,8 +51,8 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 ### 4.1. Clonando o repositório
 
 ```bash
-git clone https://github.com/rafaelq80/lojagames_react_tjs06.git
-cd lojagames_react_tjs06
+git clone https://github.com/rafaelq80/loja_games_react_tjs06.git
+cd loja_games_react_tjs06
 ```
 
 ### 4.2. Instalando as dependências
