@@ -16,7 +16,7 @@ function Navbar() {
 						/>
 					</Link>
 
-					<div className="relative flex items-center justify-center w-1/2 text-black">
+					<div className="relative flex items-center justify-center w-2/5 text-black">
 						<form 
 							className="flex items-center justify-center w-full"
 						>
@@ -41,7 +41,12 @@ function Navbar() {
 					</div>
 
 					<div className="flex items-center gap-4 py-4">
+						<Link
+							to="/produtos"
+							className="hover:underline"
+						>
 							Produtos
+						</Link>
 						<Link
 							to="/categorias"
 							className="hover:underline"

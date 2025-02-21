@@ -1,7 +1,10 @@
-﻿function Home() {
+﻿import ListarProdutos from "../../components/produtos/listarprodutos/ListarProdutos"
+import ModalProduto from "../../components/produtos/modalprodutos/ModalProduto"
+
+function Home() {
     return (
         <>
-            <div className="flex justify-center  bg-slate-800">
+            <div className="flex justify-center bg-slate-800">
                 <div className="container grid grid-cols-2 text-white">
                     <div className="flex flex-col items-center justify-center gap-4 py-4">
                         <h2 className="text-5xl font-bold">
@@ -10,8 +13,8 @@
                         <p className="text-xl">Aqui você encontra os melhores Games!</p>
 
                         <div className="flex justify-around gap-4">
-                            <div className="px-4 py-2 text-white border-2 border-white border-solid rounded">
-                                Novo Produto
+                            <div className="flex justify-around gap-4">
+                                <ModalProduto />
                             </div>
                         </div>
                     </div>
@@ -25,6 +28,8 @@
                     </div>
                 </div>
             </div>
+
+            <ListarProdutos />
         </>
     )
 }
