@@ -74,7 +74,7 @@ function FormProduto() {
 		let valor: string | number = value
 
         /**
-         * Checamos se o valor é do tipo number ou range ou se ao converter o valor para 
+         * Checamos se o tipo do input é number ou range ou se ao converter o valor para 
          * number ele não retorna NaN - Not a Number (não é um numero) e checamos se o 
          * valor é diferente de vazio
          * 
