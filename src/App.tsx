@@ -5,10 +5,10 @@ import FormCategoria from "./components/categorias/formcategoria/FormCategoria";
 import ListarCategorias from "./components/categorias/listarcategorias/ListarCategorias";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import Home from "./pages/home/Home";
 import DeletarProduto from "./components/produtos/deletarprodutos/DeletarProduto";
 import FormProduto from "./components/produtos/formproduto/FormProduto";
 import ListarProdutos from "./components/produtos/listarprodutos/ListarProdutos";
+import Home from "./pages/home/Home";
 
 function App() {
 

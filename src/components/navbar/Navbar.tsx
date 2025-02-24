@@ -1,6 +1,6 @@
-﻿import { ShoppingCart, User } from "@phosphor-icons/react"
-import { MagnifyingGlass } from "@phosphor-icons/react/dist/ssr"
-import { Link } from "react-router-dom"
+﻿import { ShoppingCart, User } from "@phosphor-icons/react";
+import { MagnifyingGlass } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
