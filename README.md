@@ -117,7 +117,7 @@ src/
 ## 7. Implementações Futuras
 
 - [x] Consumo do Recurso Categoria
-- [ ] Consumo do Recurso Produto
-- [ ] Autenticação JWT
-- [ ] Carrossel 
+- [x] Consumo do Recurso Produto
+- [x] Carrossel 
 - [ ] Simulador de Carrinho
+- [ ] Busca por nome do Produto
