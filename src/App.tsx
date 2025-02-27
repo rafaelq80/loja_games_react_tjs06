@@ -9,6 +9,7 @@ import DeletarProduto from "./components/produtos/deletarprodutos/DeletarProduto
 import FormProduto from "./components/produtos/formproduto/FormProduto";
 import ListarProdutos from "./components/produtos/listarprodutos/ListarProdutos";
 import Home from "./pages/home/Home";
+import ListarProdutosPorNome from "./components/produtos/listarprodutospornome/ListarProdutosPorNome";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
               <Route path="/cadastrarproduto" element={<FormProduto />} />
               <Route path="/editarproduto/:id" element={<FormProduto />} />
               <Route path="/deletarproduto/:id" element={<DeletarProduto />} />
+              <Route path="/consultarnome/:nome" element={<ListarProdutosPorNome />} />
             </Routes>
           </div>
         </div>
